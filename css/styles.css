@@ -1,0 +1,180 @@
+/* full body style */
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      margin: 0;
+      padding: 0;
+  }
+ 
+.navber  Li {
+  list-style: none;
+  
+}
+.navber ul{
+  display: flex;
+  gap: 51px;
+  margin-right: 100px;
+  align-items: center;
+}
+.navber a{
+text-decoration: none;
+color:#474747;
+font-size: 18px;
+
+}
+
+
+
+
+
+
+  .navber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+    
+  }
+  .banner-content{
+    display: flex;
+   align-items: center;
+
+
+  }
+
+
+.banner-text h4{
+  font-size: 25px;
+  color: #474747;
+
+}
+.banner-text h1{
+  font-size: 45px;
+
+}
+
+
+
+.banner-text a{ 
+  font-size:18px ;
+  
+  color: #474747;
+}
+
+
+.navber h2{
+  font-size: 45px;
+  font-weight: 800;
+}
+
+
+.navber span{
+color: #FD6E0A;
+}
+
+
+
+
+  .header-custom{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    background-color: #FFF8F3;
+    background-size:7% 100% ,40% 60% ;
+    padding-top: 23px;}
+
+    .banner-text{
+  
+     margin-left: 15%;
+     
+     }
+     .btn{
+      border-radius: 5px;
+     padding: 5px 10px;
+     width:150px;
+     height: 64px;
+     background-color: #FD6E0A;
+     font-size: 16px;
+     font-weight:bold;
+     color: #FFFFFF;
+     border-style: none;
+     }
+     .button-custom{
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+     }
+     .about-us{
+      border: 2px solid #FFF8F3;
+      background-color: #FFF8F3;
+      max-width: 1140px;
+      height: 580px;
+    
+      margin: 0 auto;
+      margin-top: 130px;
+      
+      border-radius: 12px;
+    
+    }
+    
+    
+    
+    .box-model1{
+      text-align: center;
+      border: 2px solid black;
+      width: 827px;
+      height: 288px;
+      background-color: white;
+      align-items: center;
+      margin: 0 auto;
+      margin-top: 131px;
+      padding: 24px 48px;
+    
+    }
+     .something{
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 200px;
+    
+      flex-wrap: wrap;
+    }
+    .something p{
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 10px 346px;
+    }
+    .card1{
+    
+      width: 400px;
+      height: 400px;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 133px 33px;
+    border-radius: 16px;
+    margin-right: 20px;
+    margin-bottom: 300px;
+    
+    }
+    .card{
+      display: flex;
+    align-items: center;
+     margin-left: 230px;
+     margin-right: 230px;
+    
+     
+    }
+    .cardtext h3{
+     font-weight: bold;
+     font-size: 20px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+    
+    }
+    .cardtext p{
+      font-size: 16px;
+      color: #474747;
+    }
+
